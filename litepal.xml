@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+<dbname value="cool_weather" />//指定数据库名
+
+<version value="1" />//指定数据库版本号
+
+<list>//List标签用于指定所有的映射模型
+    //声明要配置的映射模型类，一定要使用完整的类名
+    <mapping class="com.coolweather.android.db.Province" />
+    <mapping class="com.coolweather.android.db.City" />
+    <mapping class="com.coolweather.android.db.County" />
+</list>
+
+</litepal>
